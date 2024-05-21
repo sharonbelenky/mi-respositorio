@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid green;
+    padding: 8px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+   
+}
+
+header nav ul li{
+    margin: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 218, 214);
+}
+
+footer ul{
+    padding: 15px;
+    list-style-type: none;
+    font-size: small;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+header div img{
+    width: 25px;
+}
+
+
+h1{color: green;
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    justify-content: space-around;
+
+}
+
+.logo-bestkitchen{
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+h2{
+    color: green;
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+.texto-recetas-saladas{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+  text-align: center;
+  color: black;
+
+}
+
+.boton-recetas-rapidas{
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+   justify-content: center;
+   transition: 1s;
+
+}
+
+.conteiner-boton{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-section{
+    background-color: olivedrab;
+    border-bottom: 15px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.seccion-dos{
+    margin: 50px;
+}
+
+.seccion-uno{
+    margin: 50px;
+}
+
+section .conteiner-imagenes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section .conteiner-imagenes img{
+    width: 300px;
+}
+
+section .conteiner-imagenes2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section .conteiner-imagenes2 img{
+    width: 300px;
+}
+
+section .conteiner-banner{
+    display: flex;
+    justify-content: center;
+}
+
+section .conteiner-banner img{
+    width: 500px;
+}
+
+
+h3 span{
+    color:white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icono-wpp{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.mas-tiempo{
+    text-align: center;
+    margin: 20px;
+}
+
+.parrafo-mas-tiempo{
+    color: white
+    font-size: medium;
+}
+
+main .conteiner-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-ajo{
+    width: 200px;;
+}
+
+.cocina-chicos{
+    width: 200px;
+}
+
+.viandas{
+    width: 200px;
+}
+
+.condimentos{
+    width: 200px;
+}
+
+.hombre-tres{
+    width: 200px;
+    margin: 5px;
+}
+
+.hombre-dos{
+    width: 200px;
+    margin: 5px;
+}
+
+.mujer-cocina{
+    width: 200px;
+    margin: 5px;
+}
+
+.hombre-uno{
+    width: 200px;
+    margin: 5px;
+}
+
+.cocineros-delmundo{
+    margin-bottom: 15px;
+}
+
+.logo-footer{
+    width: 200px;
+}
+
+.logo-best-recetas{
+    width: 200px;
+}
+
+.logo-best-blog{
+    width: 200px;
+}
+
+.logo-best-cursos{
+    width: 200px;
+}
+
+.logo-best-contacto{
+    width: 200px;
+}
+
+
+.video-curso{
+    width: 600px;
+}
+
+.curso-pasteleria{
+    width: 300px;
+}
+
+main .conteiner-video{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-recetas-rapidas:hover{
+    background-color: beige;
+    color: green;
+}
+
+.conteiner-video{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.curso-h2{
+    margin: 15px;
+}
+
+.formulario{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+}
+
+section form input{
+    border: 0px;
+    padding: 5px;
+    margin: 15px;
+}
+
+section form textarea{
+    padding: 50px;
+}
+
+.cocinar-banner{
+    width: 500px;
+    margin-left: 400px;
+}
+
+.logo-best-kitchen{
+    width: 200px;
+}
+
+.card-img-top{
+    width: 20rem;
+}
+
+.comprar-uno{
+    background-color: red;
+}
+

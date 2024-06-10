@@ -1,408 +1,257 @@
-*{
-    padding: 0;
-    border: 0;
-    margin: 0;
+header {
+  background-color: olivedrab;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+header nav div a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: beige;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+header nav div a img {
+  width: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
-body{
-    background-color: beige;
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: olivedrab;
+  padding: 5px;
+}
+footer .logo-footer {
+  width: 200px;
+}
+footer ul {
+  padding: 15px;
+  list-style-type: none;
+  font-size: small;
+}
+footer ul li a {
+  color: beige;
+  list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-    color: darkgreen;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    justify-content: space-around;
-
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid green;
-    padding: 5px;
+body {
+  background-color: beige;
 }
 
-header nav ul{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    justify-content: space-around;
-   
+@keyframes girarElemento {
+  0% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(160deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.icono-wpp {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  transition: 2s;
+  animation-name: girarElemento;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+.icono-wpp:hover {
+  transform: rotate(360deg);
 }
 
-header nav ul li{
-    margin: 15px;
+main .cocinar-banner {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+main .cocinar-banner .carousel {
+  width: 500px;
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: olivedrab;
-    padding: 5px;
+section h1, section h2 {
+  color: green;
+  font-size: 29px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 20px;
 }
-
-footer ul{
-    padding: 15px;
-    list-style-type: none;
-    font-size: small;
-}
-
-footer ul li a{
-    color: beige;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
-header div img{
-    width: 25px;
-}
-
-
-h1{color: green;
-    font-size: 29px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin: 20px;
-}
-
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: small;
+section p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
   text-align: center;
   margin-bottom: 30px;
 }
-
-
-.logo-bestkitchen{
-    width: 200px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-
+section .conteiner-imagenes {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .conteiner-imagenes img {
+  width: 200px;
+  margin: 5px;
+}
+section .conteiner-imagenes img {
+  width: 200px;
+  margin: 5px;
+}
+section .conteiner-imagenes img {
+  width: 200px;
+  margin: 5px;
 }
 
-h2{
-    color: green;
-    font-size: 29px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+section {
+  margin: 50px;
+}
+section .conteiner-imagenes2 {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .conteiner-imagenes2 img {
+  width: 200px;
+  margin: 5px;
+}
+section .conteiner-imagenes2 img {
+  width: 200px;
+  margin: 5px;
+}
+section .conteiner-imagenes2 img {
+  width: 200px;
+  margin: 5px;
 }
 
-
-
-.texto-recetas-saladas{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: small;
+.conteiner-section {
+  background-color: orange;
+  border-bottom: 15px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.conteiner-section h3 {
+  justify-content: center;
   text-align: center;
-  color: black;
-
+}
+.conteiner-section h3 span {
+  color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+.conteiner-section p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.conteiner-section div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.conteiner-section div .boton-recetas-rapidas {
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: inline-block;
+  justify-content: center;
+  transition: 1s;
+  text-decoration: none;
+  transition: 1s;
+}
+.conteiner-section div .boton-recetas-rapidas:hover {
+  transform: translate(-20px, 10px);
+}
+.conteiner-section div .boton-recetas-rapidas:hover {
+  background-color: beige;
+  color: green;
 }
 
-.boton-recetas-rapidas{
-    text-align: center;
-    color: white;
-    border: 1px solid white;
-    padding: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: inline-block;
-   justify-content: center;
-   transition: 1s;
-
+main .conteiner-video {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+main .conteiner-video .video-curso {
+  width: 600px;
+  align-items: center;
+  justify-content: center;
 }
 
-.conteiner-boton{
-    display: flex;
-    justify-content: center;
+section div img {
+  width: 20rem;
 }
 
-.conteiner-section{
-    background-color: orange;
-    border-bottom: 15px;
-    padding: 20px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+main .grid-conteiner, main .grid-conteiner-3, main .grid-conteiner-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 250px 250px 250px;
+  margin: 50px;
+  row-gap: 15px;
+  column-gap: 30px;
+  border-bottom: 1px solid olivedrab;
+}
+main .grid-conteiner .item-1, main .grid-conteiner-3 .item-1, main .grid-conteiner-2 .item-1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+main .grid-conteiner .item-1 .salmon-blog, main .grid-conteiner-3 .item-1 .salmon-blog, main .grid-conteiner-2 .item-1 .salmon-blog {
+  width: 100%;
+}
+main .grid-conteiner .item-2, main .grid-conteiner-3 .item-2, main .grid-conteiner-2 .item-2 {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  background-color: khaki;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+main .grid-conteiner .item-3, main .grid-conteiner-3 .item-3, main .grid-conteiner-2 .item-3 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+main .conteiner-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+main .conteiner-contacto .conocenos-parrafo {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 15px;
+  font-size: larger;
+}
+main .conteiner-contacto .contacto {
+  width: 200px;
+  margin: 50px;
+}
+main .conteiner-form {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
-.seccion-dos{
-    margin: 50px;
-}
-
-.seccion-uno{
-    margin: 50px;
-}
-
-section .conteiner-imagenes{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-section .conteiner-imagenes img{
-    width: 300px;
-}
-
-section .conteiner-imagenes2{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-section .conteiner-imagenes2 img{
-    width: 300px;
-}
-
-section .conteiner-banner{
-    display: flex;
-    justify-content: center;
-}
-
-section .conteiner-banner img{
-    width: 500px;
-}
-
-
-h3 span{
-    color:white;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.icono-wpp{
-    position: fixed;
-    right: 25px;
-    bottom: 25px;
-}
-
-.mas-tiempo{
-    text-align: center;
-    margin: 20px;
-}
-
-.parrafo-mas-tiempo{
-    color: white
-    font-size: medium;
-}
-
-main .conteiner-banner{
-    display: flex;
-    justify-content: center;
-}
-
-.foto-ajo{
-    width: 200px;;
-}
-
-.cocina-chicos{
-    width: 200px;
-}
-
-.viandas{
-    width: 200px;
-}
-
-.condimentos{
-    width: 200px;
-}
-
-.hombre-tres{
-    width: 200px;
-    margin: 5px;
-}
-
-.hombre-dos{
-    width: 200px;
-    margin: 5px;
-}
-
-.mujer-cocina{
-    width: 200px;
-    margin: 5px;
-}
-
-.hombre-uno{
-    width: 200px;
-    margin: 5px;
-}
-
-.cocineros-delmundo{
-    margin-bottom: 15px;
-}
-
-.logo-footer{
-    width: 200px;
-}
-
-.video-curso{
-    width: 600px;
-}
-
-.curso-pasteleria{
-    width: 300px;
-}
-
-main .conteiner-video{
-    display: flex;
-    justify-content: center;
-}
-
-.boton-recetas-rapidas:hover{
-    background-color: beige;
-    color: green;
-}
-
-.conteiner-video{
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-.curso-h2{
-    margin: 15px;
-}
-
-.formulario{
-    color: green;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 25px;
-}
-
-section form input{
-    border: 0px;
-    padding: 5px;
-    margin: 15px;
-}
-
-section form textarea{
-    padding: 50px;
-}
-
-.cocinar-banner{
-    width: 500px;
-    margin-top: 40px;
-}
-
-.card-img-top{
-    width: 20rem;
-}
-
-.comprar-uno{
-    background-color: red;
-}
-
-.header-boostrap{
-    background-color: olivedrab
-}
-
-.nav-link{
-    color: beige;
-}
-
-.conteiner-form{
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-
-.conteiner-cursos{
-    margin: 50px;
-}
-
-.parrafo-cursos{
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.conteiner-saladas{
-    display: flex;
-}
-
-.conteiner-contacto{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.contacto{
-    width: 200px;
-    margin: 50px;
-}
-
-.conocenos-parrafo{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 15px;
-    font-size: larger;
-}
-
-.guiso-blog{
-    width: 200px;
-}
-
-.grid-conteiner{
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 250px 250px 250px;
-    margin: 50px;
-    row-gap: 15px;
-    column-gap: 30px;
-    border-bottom: 1px solid olivedrab
-
-}
-
-.grid-conteiner-2{
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 280px 300px 300px;
-    margin: 50px;
-    row-gap: 15px;
-    column-gap: 30px;
-    border-bottom: 1px solid olivedrab
-
-}
-
-.grid-conteiner-3{
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 250px 250px 250px;
-    margin: 50px;
-    row-gap: 15px;
-    column-gap: 30px;
-}
-
-.item-1{
-grid-column: 1/3;
-grid-row: 1/3;
-}
-
-.item-2{
-    grid-column: 3/4;
-    grid-row: 1/4;
-    background-color: khaki;
-    margin-bottom: 30px;
-    padding: 20px;
-}
-
-.item-3{
-    grid-column: 1/3;
-    grid-row: 3/4;
-}
-
-.salmon-blog{
-    width: 100%;
-}
-
-.recetas-saladas{
-    margin: 15px;
-    padding: 15px;
-}
-
-.recetas-dulces{
-    margin: 15px;
-    padding: 15px;
-}
+/*# sourceMappingURL=style.css.map */

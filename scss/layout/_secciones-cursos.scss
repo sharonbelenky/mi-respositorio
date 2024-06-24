@@ -3,9 +3,9 @@ main{
     justify-content: center;
     
     .conteiner-video{
+        display: flex;
         margin-bottom: 50px;
         margin-top: 50px;
-        align-items: center;
         justify-content: center;
 
         .video-curso{
